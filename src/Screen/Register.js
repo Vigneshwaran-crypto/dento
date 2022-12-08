@@ -25,7 +25,7 @@ const Register = props => {
     if (contact.length < 10) {
       Toast('Invalid Number');
     }
-    Actions.pop();
+    Actions.pop(); //pop for onBackPress
   };
 
   return (
